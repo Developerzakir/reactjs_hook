@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const UseStateObject = () => {
     const [info,setInfo] = useState({
         name:"",
-        id:null
+        id:""  //prevent console error
     })
 
   return (

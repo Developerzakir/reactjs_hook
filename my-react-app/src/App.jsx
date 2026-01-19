@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HookCounter from './components/HookCounter'
 import UseStateObject from './components/UseStateObject'
+import UseStateArray from './components/UseStateArray'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
      {/* <HookCounter /> */}
-     <UseStateObject />
+     {/* <UseStateObject /> */}
+     <UseStateArray />
     </>
   )
 }
